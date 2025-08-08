@@ -7,14 +7,14 @@ header{
     transition: 2s;
 }
 .flo{
-    animation flow 4s ease-in-out infinit ;
+    animation: flow 4s ease-in-out infinite ;
 }
-@keyfram flow {
-    0% { 0%   { transform: translateY(0) rotate(0deg); }
-  25%  { transform: translateY(-8px) rotate(-1.2deg); }
-  50%  { transform: translateY(-12px) rotate(0.8deg); }
-  75%  { transform: translateY(-6px) rotate(-0.6deg); }
-  100% { transform: translateY(0) rotate(0deg); }
+@keyframes flow {
+  0%   { transform: translateY(0) rotate(1deg)}
+  25%  { transform: translateY(-5px)  }
+  50%  { transform: translateY(-5px) rotate(0.1deg)}
+  75%  { transform: translateY(5px) rotate(0.1deg) }
+  100% { transform: translateY(0px) rotate(1deg) }
 }
 .btn:hover{
     transform:scale(1.1);
