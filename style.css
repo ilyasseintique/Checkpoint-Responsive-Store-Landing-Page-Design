@@ -6,6 +6,16 @@ header{
 .btn{
     transition: 2s;
 }
+.flo{
+    animation flow 4s ease-in-out infinit ;
+}
+@keyfram flow {
+    0% { 0%   { transform: translateY(0) rotate(0deg); }
+  25%  { transform: translateY(-8px) rotate(-1.2deg); }
+  50%  { transform: translateY(-12px) rotate(0.8deg); }
+  75%  { transform: translateY(-6px) rotate(-0.6deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
 .btn:hover{
     transform:scale(1.1);
     box-shadow: 5px 3px 10px gray;
